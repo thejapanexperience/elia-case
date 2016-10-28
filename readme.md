@@ -9,3 +9,16 @@ Add the beautiful name Elia to the start of every word in a string.
 ```bash
 $ npm install elia-case
 ```
+
+## Usage
+
+```js
+const eliacase = require('elia-case')
+
+eliacase('foo')
+// => "  Eliafoo"
+
+leftPad('The quick brown fox jumps over the lazy dog', )
+// => "EliaThe Eliaquick Eliabrown Eliafox Eliajumps Eliaover Eliathe Elialazy Eliadog"
+
+```
